@@ -115,7 +115,7 @@ section '.text' code readable executable
             jmp print
 
         print_positive_two:
-            push dword[slope + PNT.x] ; prinf is reversed stack
+            push dword[slope + PNT.x] ; function arguments are in reversed stack order
             push dword[slope + PNT.y]
             push output_positive_two
             jmp print
