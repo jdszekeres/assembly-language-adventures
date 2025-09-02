@@ -20,10 +20,7 @@ library kernel,'kernel32.dll',\
         msvcrt,'msvcrt.dll'
  
 import  kernel,\
-        ExitProcess,'ExitProcess',\
-        GetStdHandle,'GetStdHandle',\
-        ReadFile,'ReadFile'
+        ExitProcess,'ExitProcess'
 
 import  msvcrt,\
-        printf, 'printf',\
-        strtoul, 'strtoul'
+        printf, 'printf'
